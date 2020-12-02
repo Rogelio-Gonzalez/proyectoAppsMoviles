@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <ion-title class="centro">Contacto</ion-title>
+    <ion-buttons>
+      <ion-back-button class="color" ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <form (ngSubmit)="onSubmit( f )"
+  #f="ngForm"
+  class="login100-form validate-form flex-sb flex-w">
+
+<span *ngIf="f.submitted && f.controls['nombre'].errors"
+      class="text-danger animated fadeIn">El nombre es obligatorio</span>
+      
+<div class="wrap-input100 m-b-16">
+    <input class="input100" 
+           type="text" 
+           name="nombre" 
+           [(ngModel)]="contacto.nombre"
+           minlength="10"
+           required
+           placeholder="Nombre y apellidos">
+
+    <span class="focus-input100"></span>
+</div>
+<span *ngIf="f.submitted && f.controls['email'].errors"
+      class="text-danger animated fadeIn">El correo es obligatorio</span>
+
+<div class="wrap-input100 m-b-16">
+    <input class="input100" 
+           type="email" 
+           name="email"
+           [(ngModel)]="contacto.email"
+           required
+           email
+           placeholder="Email">
+
+    <span class="focus-input100"></span>
+</div>
+<span *ngIf="f.submitted && f.controls['texto'].errors"
+      class="text-danger animated fadeIn">El texto es obligatorio</span>
+<div>
+  <ion-textarea rows="8" cols="132" placeholder="Describa el problema" class="wrap-input100 m-b-16"
+  name="texto"
+           [(ngModel)]="contacto.texto"
+           required
+           text-area
+           minlength="20"
+
+           ></ion-textarea>
+</div>
+<button class="login100-form-btn" type="submit">
+  Enviar
+</button>
+
+</form>
+
+</ion-content>

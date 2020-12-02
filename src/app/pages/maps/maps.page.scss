@@ -1,0 +1,32 @@
+#map{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#ubication{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    width: 80px;
+    align-items: center;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header{
+    --background:#05061d;
+}
+.text{
+    text-align: center;
+    text-justify: inherit;
+    font-weight: bold;
+    color: mediumblue;
+    
+}

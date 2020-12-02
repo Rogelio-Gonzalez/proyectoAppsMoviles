@@ -1,0 +1,40 @@
+  
+
+
+.social-facebook{
+    --background : #3b5998;
+}
+.social-google{
+    --background : #dd4b39;
+}
+.social-twitter{
+    --background : #55acee;
+}
+img {
+    width: 80px;
+    align-items: center;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header{
+    --background:#05061d;
+}
+.no-scroll{ 
+    overflow: hidden; 
+}
+.texto{
+    text-align: center;
+    font-size: 36px;
+    color: #05061d;
+}
+.boton{
+    --background: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

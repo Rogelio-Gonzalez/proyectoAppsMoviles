@@ -1,0 +1,40 @@
+img {
+    width: 80px;
+    align-items: center;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header{
+    --background: #05061d;
+}
+.header1{
+    --background: #08103e;
+}
+.text{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.imagen{
+    width:215px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .imagen2{
+    width:255px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

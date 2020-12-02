@@ -1,0 +1,44 @@
+.header{
+    --background: #05061d;
+}
+.color{
+    color: white;
+}
+.centro{
+    color: white;
+    text-align: center;
+}
+.texto{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.image{
+    width: 80px;
+    height: 80px;
+}
+.gym{
+    color: black;
+    font-size: 18px;
+}
+.fotos{
+    width: 300px;
+    height: 250px;
+}
+.card-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.card-subtitle{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+ion-card{
+
+    --ion-background-color: #000000;
+}
